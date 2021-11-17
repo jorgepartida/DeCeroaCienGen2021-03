@@ -1,7 +1,17 @@
 
-import numpy as np
+
+
+
+
+
+
+
+
 
 '''
+import numpy as np
+
+
 x = np.array([3,7,9])
 y = np.array([2,3,8])
 
@@ -33,7 +43,7 @@ y = np.array([[1,-2],
 z = x@y
 
 print(z)
-'''
+
 x = np.array([[-10,5,9],
               [7,12,-1],
               [8,3,1]])
@@ -42,8 +52,24 @@ print(np.linalg.det(x))
 print(np.linalg.inv(x))
 
 
+import pandas as pd
+import numpy as np
+from scipy import stats
 
+x = np.array([10,11,13,21,17,16,9])
 
+print(np.mean(x))
+
+print(np.median(x))
+
+print(stats.mode(x))
+
+print(x.max() - x.min())
+
+print(np.var(x))
+
+print(np.std(x))
+'''
 
 
 
